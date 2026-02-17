@@ -22,8 +22,8 @@ class SecurityRequest(BaseModel):
 
 
 # Keyword lists
-ADULT_WORDS = ["sex", "nude", "xxx"]
-PROFANITY_WORDS = ["damn", "shit", "fuck"]
+ADULT_WORDS = ["sex", "nude", "xxx","adult","porn","explicit"]
+PROFANITY_WORDS = ["damn", "shit", "fuck","bitch","pussy","dick"]
 HARASSMENT_WORDS = ["idiot", "stupid", "hate you"]
 
 CONFIDENCE_THRESHOLD = 0.9
