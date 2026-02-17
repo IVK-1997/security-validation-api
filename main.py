@@ -22,7 +22,7 @@ class SecurityRequest(BaseModel):
 
 
 # Keyword lists
-ADULT_WORDS = ["sex", "nude", "xxx","adult","porn","explicit"]
+ADULT_WORDS = ["sex", "nude", "xxx","adult content","porn","explicit"]
 PROFANITY_WORDS = ["damn", "shit", "fuck","bitch","pussy","dick"]
 HARASSMENT_WORDS = ["idiot", "stupid", "hate you"]
 
